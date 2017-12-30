@@ -12,7 +12,7 @@ select full_name
 ![Example](http://majazestan.com/static/SimpleJsonParser.jpg "Simple Json Parser Example")
 
 
-```
+```java
 new SimpleJsonParser(jsonString)
         .Object("data")
         .Array("config")
@@ -25,7 +25,7 @@ new SimpleJsonParser(jsonString)
 ```
 
 
-```
+```java
 new SimpleJsonParser(jsonString)
         .Object("data")
         .Array("options")   <=--------- *
@@ -45,7 +45,7 @@ Index for get JSONObject or JSONArray from Array by index
 getString get string value (return "" if not found)
 
 
-```
+```java
 JSONArray jsonArray = new SimpleJsonParser(jsonString)
                           .Object("data")
                           .Array("config")
@@ -53,7 +53,7 @@ JSONArray jsonArray = new SimpleJsonParser(jsonString)
 ```
 ------
 
-```
+```java
 JSONObject jsonObject = new SimpleJsonParser(jsonString)
                           .Object("data")
                           .getJSONObject();
