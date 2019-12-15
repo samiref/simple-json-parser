@@ -2,7 +2,7 @@ Hello
 
 # simple-json-parser for JAVA
 Simple JSON Parser For JAVA &amp; Android
-
+Java Class
 this class is for parse json string in java without any exception or need to try/catch.
 
 very simple. only create new object from SimpleJsonParser() and go to end.
